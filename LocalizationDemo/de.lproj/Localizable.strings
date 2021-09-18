@@ -7,3 +7,5 @@
 */
 "phonename" = "Ich liebe das iPhone.";
 "flag" = "german";
+"pendata" = "Ich habe %d Stifte.";
+"amount" = "Ich habe %@ Betrag.";

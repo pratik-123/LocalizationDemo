@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3079A9DC26F613A700BF8747 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 3079A9DE26F613A700BF8747 /* Localizable.stringsdict */; };
 		309CCBEC26EDEB7300D5428D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309CCBEB26EDEB7300D5428D /* AppDelegate.swift */; };
 		309CCBF026EDEB7300D5428D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309CCBEF26EDEB7300D5428D /* ViewController.swift */; };
 		309CCBF326EDEB7300D5428D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309CCBF126EDEB7300D5428D /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3079A9DD26F613A700BF8747 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		3079A9E026F614F600BF8747 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		309CCBE826EDEB7300D5428D /* LocalizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309CCBEB26EDEB7300D5428D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		309CCBEF26EDEB7300D5428D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				309CCBEB26EDEB7300D5428D /* AppDelegate.swift */,
+				3079A9DE26F613A700BF8747 /* Localizable.stringsdict */,
 				309CCC1226EDF8E500D5428D /* InfoPlist.strings */,
 				309CCBEF26EDEB7300D5428D /* ViewController.swift */,
 				309CCC0926EDF74200D5428D /* Localizable.strings */,
@@ -137,6 +141,7 @@
 				309CCBF526EDEB7700D5428D /* Assets.xcassets in Resources */,
 				309CCBF326EDEB7300D5428D /* Main.storyboard in Resources */,
 				309CCC1026EDF8E500D5428D /* InfoPlist.strings in Resources */,
+				3079A9DC26F613A700BF8747 /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +160,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3079A9DE26F613A700BF8747 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3079A9DD26F613A700BF8747 /* en */,
+				3079A9E026F614F600BF8747 /* de */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
 		309CCBF126EDEB7300D5428D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

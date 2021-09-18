@@ -7,3 +7,5 @@
 */
 "phonename" = "I love iPhone. I love red color";
 "flag" = "india";
+"pendata" = "I have %d pens.";
+"amount" = "I have %@ amount.";

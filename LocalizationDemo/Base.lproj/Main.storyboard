@@ -35,20 +35,38 @@
                                     <constraint firstAttribute="width" constant="200" id="XgC-uc-qIt"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have 10 pens." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCI-MG-Ovd">
+                                <rect key="frame" x="16" y="250" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have 10000 amout." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMt-HP-yzc">
+                                <rect key="frame" x="16" y="287" width="154.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="OML-5U-0l2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="13G-qD-nKO"/>
+                            <constraint firstItem="oCI-MG-Ovd" firstAttribute="top" secondItem="qf8-6B-C67" secondAttribute="bottom" constant="16" id="1H1-GJ-FqE"/>
                             <constraint firstItem="ma9-tS-uBf" firstAttribute="top" secondItem="OML-5U-0l2" secondAttribute="bottom" constant="16" id="9nc-yO-ffU"/>
                             <constraint firstItem="OML-5U-0l2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="CTp-gw-SBW"/>
+                            <constraint firstItem="NMt-HP-yzc" firstAttribute="top" secondItem="oCI-MG-Ovd" secondAttribute="bottom" constant="16" id="DYO-1u-xIy"/>
                             <constraint firstItem="ma9-tS-uBf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KhP-1i-iAH"/>
+                            <constraint firstItem="NMt-HP-yzc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WA7-ki-Bh4"/>
                             <constraint firstItem="qf8-6B-C67" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bRS-gT-PbF"/>
                             <constraint firstItem="qf8-6B-C67" firstAttribute="top" secondItem="ma9-tS-uBf" secondAttribute="bottom" constant="16" id="cdc-uF-jY7"/>
+                            <constraint firstItem="oCI-MG-Ovd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="saI-gU-fcQ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="imageViewFlag" destination="qf8-6B-C67" id="fAF-ae-dda"/>
+                        <outlet property="labelAmount" destination="NMt-HP-yzc" id="DRL-SN-6bR"/>
+                        <outlet property="labelPen" destination="oCI-MG-Ovd" id="84p-S2-5AS"/>
                         <outlet property="labelPhone" destination="ma9-tS-uBf" id="oGi-09-H6m"/>
                     </connections>
                 </viewController>
